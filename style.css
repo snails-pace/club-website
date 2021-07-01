@@ -30,11 +30,21 @@ nav {
     
 }
 
+.menu li:hover {
+    text-decoration: underline 2px;
+}
+
 .menu li {
     font-size: 1.7rem;
     list-style: none;
     font-weight: bold;
     padding-bottom: 0.5rem;
+}
+
+
+.menu li a {
+    text-decoration: none;
+    color: black;
 }
 
 #burger-toggle {
