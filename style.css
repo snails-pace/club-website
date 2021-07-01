@@ -74,6 +74,9 @@ nav label {
        display: block;
     }
 
+    nav label:hover {
+        cursor: pointer;
+    }
 
 
 
