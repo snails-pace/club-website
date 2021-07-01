@@ -4,23 +4,77 @@
     box-sizing: border-box;
 }
 
-header {
-    background-color: #7FAD81;
-    height: 9rem;
+body {
+    font-family: 'Karla', sans-serif;
 }
+
 
 h1 {
     text-align: center;
-    padding-top: 1rem;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 3rem;
+    background-color: #7FAD81;
 }
 
-nav ul {
+nav {
+    background-color: #BBC385;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+}
+
+.menu {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    height: 4.5rem;
+    
 }
 
-nav ul li {
-    font-size: 1.5rem;
+.menu li {
+    font-size: 1.7rem;
+    list-style: none;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+}
+
+#burger-toggle {
+    display: none;
+}
+
+nav label {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    nav {
+        padding: 0;
+    }
+
+    .menu {
+        display: none;
+    }
+    
+    .menu li,
+    nav label {
+        text-align: center;
+        padding-top: 0.2em;
+    }
+
+    nav label {
+        display: block;
+        font-size: 2rem;
+
+    }
+
+    #burger-toggle:checked + .menu {
+       display: block;
+    }
+
+
+
+
 }
