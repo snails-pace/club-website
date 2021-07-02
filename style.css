@@ -58,7 +58,7 @@ nav label {
 
 
 section {
-    height: 30em;
+    
 }
 
 #banner {
@@ -67,6 +67,7 @@ section {
   display: grid;
   grid-template: repeat(3, auto) / auto;
   justify-content: center;
+  height: 30em;
 }
 
 #banner img {
@@ -87,6 +88,32 @@ section {
     background-color: #f8daed;
     opacity: 0.8;
 }
+
+.main-parts {
+    margin: 2em 8em;
+    text-align: center;
+    padding: 2em 2em;
+
+    
+}
+
+.main-parts h2 {
+    font-size: 2rem;
+}
+
+.main-parts p {
+    margin-top: 1em;
+    font-size: 1.2rem;
+    line-height: 1.5em;
+    
+}
+
+#about {
+    border: 2px solid #BBC385;
+}
+
+
+
 
 @media only screen and (max-width: 600px) {
     h1 {
