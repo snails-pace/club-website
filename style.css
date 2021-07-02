@@ -35,7 +35,7 @@ nav {
 }
 
 .menu li {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     list-style: none;
     font-weight: bold;
     padding-bottom: 0.5rem;
@@ -53,6 +53,39 @@ nav {
 
 nav label {
     display: none;
+}
+
+
+
+section {
+    height: 30em;
+}
+
+#banner {
+  background-color: #f8daed;
+  opacity: 0.8;
+  display: grid;
+  grid-template: repeat(3, auto) / auto;
+  justify-content: center;
+}
+
+#banner img {
+    opacity: 0.8;
+    height: 30em;
+    grid-row: 1 / span 3;
+    grid-column: 1 / span 1;
+}
+
+#banner p {
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 1;
+    z-index: 2;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Dancing Script', cursive;
+    padding: 0.3em 0;
+    background-color: #f8daed;
+    opacity: 0.8;
 }
 
 @media only screen and (max-width: 600px) {
