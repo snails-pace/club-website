@@ -90,29 +90,52 @@ section {
 }
 
 .main-parts {
-    margin: 2em 8em;
+    margin: 6em 8em 0 8em;
     text-align: center;
-    padding: 2em 2em;
+    padding: 0 3em 3em 3em;
 
     
 }
 
 .main-parts h2 {
     font-size: 2rem;
+    margin-bottom: 1.5em;
+    background-color: #f8daedde;
 }
 
 .main-parts p {
-    margin-top: 1em;
     font-size: 1.2rem;
     line-height: 1.5em;
     
 }
 
-#about {
+#about p {
     border: 2px solid #BBC385;
+    padding: 2em;
 }
 
+#events {
+    padding-top: 0;
+}
 
+#events img {
+    height: 333px;
+    width: 500px;
+}
+
+#event-gallery {
+    display: grid;
+    grid-template: auto / repeat(3, auto);
+}
+
+#events p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#events img:hover {
+    cursor: pointer;
+}
 
 
 @media only screen and (max-width: 600px) {
