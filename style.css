@@ -104,12 +104,13 @@ section {
 }
 
 .main-parts p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     line-height: 1.5em;
     
 }
 
-#about p {
+#about p,
+#join-combo {
     border: 2px solid #BBC385;
     padding: 2em;
 }
@@ -135,6 +136,10 @@ section {
 
 #events img:hover {
     cursor: pointer;
+}
+
+#join button {
+    margin-top: 1.5em;
 }
 
 
